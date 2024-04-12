@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+div{
+    width: 100px;
+    height: 100px;
+    background: pink;
+    /* transition: width 1s; */
+    margin-bottom: 20px;
+    margin-left: 400px;
+}
+div:hover{
+    width: 500px;
+}
+.uno{
+    transition-timing-function: linear;
+}
+.dos{
+    transition: width 2s, height 2s, transform 2s;
+}
+.dos:hover{
+    width: 300px;
+    min-height: 300px;
+    transform: rotate(180deg) 2s;
+}
+.tres{
+    transition-timing-function: ease-in;
+}
+.cuatro{
+    transition-timing-function: ease-out;
+}
+.cinco{
+    transition-timing-function: ease-in-out;
+}

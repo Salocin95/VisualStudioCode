@@ -1,0 +1,19 @@
+/*Estructura basica*/
+/*@media screen and (max-width:){estilos}*/
+@media screen and (max-width:13000px)
+{ body{
+    background: red;
+}}
+@media screen and (max-width:720px)
+{ body{
+    background: rgb(161, 5, 223);
+}}
+@media screen and (max-width:400px)
+{ body{
+    background: rgb(11, 2, 131);
+}}
+@media print{
+    body{
+        font-size: 200px;
+    }
+}

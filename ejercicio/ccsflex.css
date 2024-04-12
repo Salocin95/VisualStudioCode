@@ -1,0 +1,14 @@
+.contenedor-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid blue;
+    width: 400px;
+    height: 400px;
+    
+}
+.contenedor-flex div{
+    flex-basis: 33%;
+    padding: 10px 0;
+    text-align: center;
+}

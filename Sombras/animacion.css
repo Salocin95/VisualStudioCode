@@ -1,0 +1,16 @@
+div{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation-name: ejercicio;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes ejercicio{
+    0% {background: red; left: 0; top: 0;}
+    25% {background: black; left: 200px; top: 0px;}
+    50% {background: blue; left: 200px; top: 200x;}
+    75% {background: yellow; left: 0; top: 200px}
+    100% {background: green; left: 0; top: 0;}
+}

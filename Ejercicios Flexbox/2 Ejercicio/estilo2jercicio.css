@@ -1,0 +1,60 @@
+body{
+    font-family: Verdana;
+      padding: 0px;
+      margin: 0px;
+  }
+  header{
+      padding: 20px;
+      color: white;
+      text-align: left;
+      background: gray;
+      font-size: 2em;   
+  }
+  section{
+    display: flex;
+    align-content: stretch;
+    grid-gap: 6px;
+    
+  }
+  article{
+      padding: 10px;
+      text-align: center;
+      width: 50%;
+      border-width: 6px; 
+      margin: 0 15px 0 15px;
+      border-radius: 35px 0 10px 0;
+  }
+  
+  #articulo-1{
+      background: #37dff5;
+      border-color: gray;    
+  }
+  #articulo-2{
+      background: #a5f370;
+      border-color:gray ;
+  }
+  #articulo-3{
+      background: #e78b56;
+      border-color:gray ;
+  }
+  #articulo-4{
+      background: gray;
+      grid-template-columns: repeat (3, 1fr);
+      
+
+
+  }
+
+  p{
+      text-align: justify;
+  }
+  h2{
+    text-align: right;
+  }
+  h1{
+    text-align: center;
+  }
+.articulo{
+  margin-top: 20px;
+}
+      
